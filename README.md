@@ -13,3 +13,8 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+ ```
+ to download csv file type it terminal
+ 
+ wget https://raw.githubusercontent.com/yadav-avnish/aps-fault-detection/main/aps_failure_training_set1.csv
+ ```
