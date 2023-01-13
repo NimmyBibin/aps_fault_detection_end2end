@@ -1,4 +1,4 @@
-import pymongo
+"""import pymongo
 import mongo_client
 
 # Provide the mongodb localhost url to connect python to mongodb.
@@ -24,3 +24,22 @@ all_record = collection.find()
 # Printing all records present in the collection
 for idx, record in enumerate(all_record):
      print(f"{idx}: {record}")
+
+     """
+from sensor.logger import logging
+from sensor.exception import SensorException
+import sys,os
+def test_logger_and_exception():
+     try:
+          logging.info("starting the test_logger_and_exception")
+          result=3/0
+          print(result)
+          logging.info("stopping the test_logger_and_exception")
+     except Exception as e:
+          logging.debug("stopping the test_logger_and_exception")
+          raise SensorException(e,sys)
+if __name__=="__main__":
+     try:
+          test_logger_and_exception()
+     except Exception as e:
+          print(e)
