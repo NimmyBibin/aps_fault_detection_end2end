@@ -18,5 +18,5 @@ PyYAML
 numpy
 scikit-learn
 apache-airflow
-apt-utils
+apt-utils==1.0.9.8.4
 -e .
