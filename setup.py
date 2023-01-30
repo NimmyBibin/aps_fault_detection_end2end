@@ -21,7 +21,7 @@ setup(
     name="sensor",
     version="0.0.2",
     author="ineuron",
-    author_email="avnish@ineuron.ai",
+    author_email="nimmyjoykarickadu@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements(),
 )

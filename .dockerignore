@@ -9,3 +9,6 @@ batch_prediction.py
 data_dump.py
 main.py
 README.md
+Scania_APS_failure_prediction.ipynb
+validate.ipynb
+train.py
