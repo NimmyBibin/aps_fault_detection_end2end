@@ -1,4 +1,4 @@
-ENV DEBIAN_FRONTEND noninteractive
+ENVENV DEBIAN_FRONTEND=noninteractive
 ENV DEBCONF_NOWARNINGS="yes"
 FROM python:3.8
 USER root
